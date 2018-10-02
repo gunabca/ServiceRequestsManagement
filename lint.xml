@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ButtonStyle" severity="ignore" />
+    <issue id="NewApi">
+        <ignore path="src/cit/ordermanagement/com/Backup.java" />
+    </issue>
+    <issue id="SimpleDateFormat">
+        <ignore path="src/cit/ordermanagement/com/Customerdbwork.java" />
+    </issue>
+</lint>

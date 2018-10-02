@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cit.ordermanagement.com"
+    android:versionCode="12"
+    android:versionName="2.1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="23" />
+
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="23" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".OrderMainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ORDERMAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NewOrder"
+            android:label="@string/title_activity_new_order" >
+            <intent-filter>
+                <action android:name="com.ordermanagement.cit.NEWORDER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NewCustomer"
+            android:label="@string/title_activity_new_customer" >
+            <intent-filter>
+                <action android:name="com.ordermanagement.cit.NEWCUSTOMER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ViewCustomer"
+            android:label="@string/title_activity_view_customer" >
+            <intent-filter>
+                <action android:name="com.ordermanagement.cit.VIEWCUSTOMER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FindCustomer"
+            android:label="@string/title_activity_find_customer" >
+        </activity>
+        <activity
+            android:name=".View_order"
+            android:label="@string/title_activity_view_order" >
+            <intent-filter>
+                <action android:name="com.ordermanagement.cit.VIEWORDER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Existing_Orders"
+            android:label="@string/title_activity_existing__orders" >
+            <intent-filter>
+                <action android:name="com.ordermanagement.cit.EXISTINGORDERS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Order_Lookup"
+            android:label="@string/title_activity_order__lookup" >
+            <intent-filter>
+                <action android:name="com.ordermanagement.cit.ORDERLOOKUP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PaymentsR"
+            android:label="@string/title_activity_payments_r" >
+            <intent-filter>
+                <action android:name="com.ordermanagement.cit.PAYMENTS_R" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ManageCustomers"
+            android:label="@string/title_activity_manage_customers" >
+            <intent-filter>
+                <action android:name="com.ordermanagement.cit.MANAGECUSTOMERS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings" >
+            <intent-filter>
+                <action android:name="com.ordermanagement.cit.SETTINGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Reports"
+            android:label="@string/title_activity_reports" >
+            <intent-filter>
+                <action android:name="com.ordermanagement.cit.REPORTS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".View_order_duetoday"
+            android:label="@string/title_activity_reports" >
+            <intent-filter>
+                <action android:name="com.ordermanagement.cit.VIEWORDERDUETODAY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PayementsPending"
+            android:label="@string/title_activity_reports" >
+            <intent-filter>
+                <action android:name="com.ordermanagement.cit.PAYEMENTSPENDING" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".View_PendingOrder"
+            android:label="@string/title_activity_reports" >
+            <intent-filter>
+                <action android:name="com.ordermanagement.cit.VIEWPENDINGORDER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PrintView"
+            android:label="@string/title_activity_print_view" >
+            <intent-filter>
+                <action android:name="com.ordermanagement.cit.PRINTVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Payments_Report"
+            android:label="@string/title_activity_reports" >
+            <intent-filter>
+                <action android:name="com.ordermanagement.cit.PAYMENTS_REPORT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OrmLogin"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Employee"
+            android:label="@string/title_activity_employee" >
+            <intent-filter>
+                <action android:name="com.ordermanagement.cit.EMPLOYEE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Admin_Settings"
+            android:label="@string/title_activity_admin__settings" >
+        </activity>
+        <activity
+            android:name=".EmpReports"
+            android:label="@string/title_activity_emp_reports" >
+            <intent-filter>
+                <action android:name="com.ordermanagement.cit.EMPREPORTS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EmpViewReport"
+            android:label="@string/title_activity_emp_view_report" >
+            <intent-filter>
+                <action android:name="com.ordermanagement.cit.EMPVIEWREPORT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ConsolidatedReports"
+            android:label="@string/title_activity_consolidated_reports" >
+            <intent-filter>
+                <action android:name="com.ordermanagement.cit.CONSOLIDATEDREPORTS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Consolidatedview"
+            android:label="@string/title_activity_consolidated_reports" >
+            <intent-filter>
+                <action android:name="com.ordermanagement.cit.CONSOLIDATEDVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UserProfile"
+            android:label="@string/title_activity_user_profile" >
+            <intent-filter>
+                <action android:name="com.ordermanagement.cit.USERPROFILE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Backup"
+            android:label="@string/title_activity_backup" >
+            <intent-filter>
+                <action android:name="com.ordermanagement.cit.BACKUP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

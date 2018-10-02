@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="25dp"
+     >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:orientation="horizontal"
+ android:baselineAligned="false"
+         >
+        
+         <LinearLayout
+        android:layout_width="0dp"
+         android:layout_weight="50"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvneworderidname" />
+
+            <EditText
+                android:id="@+id/etneworderid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:clickable="false"
+                android:focusable="false"
+             android:cursorVisible="false"
+             android:focusableInTouchMode="false"
+                
+                android:inputType="none" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvnewitemdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvnewitemdatelabel"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etnewitemdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                 android:clickable="false"
+                android:focusable="false"
+             android:cursorVisible="false"
+             android:focusableInTouchMode="false"
+              >           
+                
+            </EditText>
+            
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvstatuslabel"
+                android:typeface="serif" />
+
+            <Spinner
+                android:id="@+id/statusspin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvcustomermobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvcustomermobilelabelnew" />
+
+            <EditText
+                android:id="@+id/etnewordercustomermobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvnewitemname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvnewitemnamelabel"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etnewitemname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvnewitemdesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvnewitemdesclabel"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etnewitemdesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvordertype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvordertypelabel"
+                android:typeface="serif" />
+
+            <Spinner
+                android:id="@+id/order_type"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvassignedto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvassignedtolabel"
+                android:typeface="serif" />
+
+     <!--        <EditText
+                android:id="@+id/etassignedto"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:inputType="text" >
+            </EditText>  -->
+            
+            <Spinner
+             android:id="@+id/spjobassignedto"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+            
+        
+             />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvassignedby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvassignedbylabel"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etassignedby"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" 
+                android:focusable="false"
+                android:clickable="false"
+                android:focusableInTouchMode="false"
+                android:cursorVisible="false"         
+                
+                >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvproblemrpt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvproblemrptlabel"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etproblemrpt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                 android:maxLength="150"
+                 >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvengaccessories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvengaccessorieslabel"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etengaccessories"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                 android:maxLength="150"
+                
+                 >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvsolution"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvsolutionlabel"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etsolution"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine" 
+                 android:maxLength="150"
+                >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvdelconfirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvdelconfirmlabel"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etdelconfirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapCharacters"
+                android:maxLength="1" />
+            
+        </LinearLayout>
+
+        </LinearLayout>
+          <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="50"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:paddingTop="5dp"
+             >
+
+            <TextView
+                android:id="@+id/tvprioriy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvprioritylabel"
+                android:typeface="serif" />
+
+            <Spinner
+                android:id="@+id/priorityspin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvcomplexity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvcomplexitylabel"
+                android:typeface="serif" />
+
+            <Spinner
+                android:id="@+id/complexityspin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvetc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvetcname" />
+
+            <EditText
+                android:id="@+id/etetc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvduedate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvduedatelabel"
+                android:layout_weight="30"
+                 />
+
+            <EditText
+                android:id="@+id/etduedate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="date" 
+                     android:focusable="false"
+                android:clickable="false"
+                android:focusableInTouchMode="false"
+                android:cursorVisible="false"  
+                
+                 android:layout_weight="40"
+                >
+            </EditText>
+
+            <Button
+                android:id="@+id/neworderduedatebt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/neworderduedatebtlabel" 
+                 android:layout_weight="30"
+                
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvpaydue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvpayduelabel" />
+
+            <EditText
+                android:id="@+id/ettvpaydue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvpayreceived"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvpayreceivedlabel" />
+
+            <EditText
+                android:id="@+id/ettvpayreceived"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date" >
+            </EditText>
+        </LinearLayout>
+                  <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvordersparescost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvordersparescostlabel" />
+
+            <EditText
+                android:id="@+id/etsparescost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number">
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvpymtstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvpymtstatuslabel"
+                android:typeface="serif" />
+
+            <Spinner
+                android:id="@+id/spinpayment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btsaveneworder"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/saveneworderlabel" />
+<Button
+            android:id="@+id/btnext"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnextlabel" />
+        
+        <Button
+            android:id="@+id/btprintorder"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btprintorderlabel" />
+
+        <Button
+            android:id="@+id/btviewneworder"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btviewneworderlabel"
+            android:visibility="invisible" />
+        
+        
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

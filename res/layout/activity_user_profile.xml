@@ -1,0 +1,480 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+     >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:orientation="vertical" >
+
+ <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvpref01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvpref01label"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etpref01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" 
+              
+                
+                >
+            </EditText>
+            
+        </LinearLayout>
+   
+            
+ 
+ <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvpref02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvpref02label"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etpref02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" >
+            </EditText>
+            
+        </LinearLayout>
+        
+ <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvpref03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvpref03label"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etpref03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" >
+            </EditText>
+            
+        </LinearLayout>
+        
+ <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvpref04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvpref04label"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etpref04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" >
+            </EditText>
+            
+        </LinearLayout>
+        
+ <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvpref05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvpref05label"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etpref05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" >
+            </EditText>
+            
+        </LinearLayout>
+        
+ <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvpref06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvpref06label"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etpref06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" >
+            </EditText>
+            
+        </LinearLayout>
+        
+ <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvpref07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvpref07label"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etpref07"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:inputType="text" >
+            </EditText>
+            
+        </LinearLayout>
+        
+ <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvpref08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvpref08label"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etpref08"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" >
+            </EditText>
+            
+        </LinearLayout>
+        
+ <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvpref09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvpref09label"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etpref09"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" >
+            </EditText>
+            
+        </LinearLayout>
+        
+<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvpref10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvpref10label"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etpref10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" >
+            </EditText>
+            
+        </LinearLayout>
+        
+<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvpref11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvpref11label"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etpref11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" >
+            </EditText>
+            
+        </LinearLayout>
+        
+<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvpref12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvpref12label"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etpref12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" >
+            </EditText>
+            
+        </LinearLayout>
+        
+ <TextView
+                android:id="@+id/tvtandc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvtandclabel"
+                android:typeface="serif" />
+
+<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvpref13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvpref13label"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etpref13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" 
+                android:maxLength="100"
+                >
+            </EditText>
+            
+        </LinearLayout>
+        
+
+<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvpref14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvpref14label"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etpref14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" 
+                android:maxLength="100"
+                >
+            </EditText>
+            
+        </LinearLayout>
+        
+
+
+<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvpref15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvpref15label"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etpref15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLength="100"
+                 >
+            </EditText>
+            
+        </LinearLayout>
+
+
+<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvpref16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvpref16label"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etpref16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLength="100"
+                 >
+            </EditText>
+            
+        </LinearLayout>
+
+
+
+<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvpref17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvpref17label"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etpref17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLength="100"
+                 >
+            </EditText>
+            
+        </LinearLayout>
+        
+
+<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvpref18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvpref18label"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etpref18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" 
+                android:maxLength="100"
+                >
+            </EditText>
+            
+        </LinearLayout>
+
+<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvpref19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvpref19label"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etpref19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLength="100"
+                 >
+            </EditText>
+            
+        </LinearLayout>
+<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvpref20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvpref20label"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/etpref20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" 
+                android:maxLength="100"
+                >
+            </EditText>
+            
+        </LinearLayout>
+
+<Button 
+    android:id="@+id/btsaveupdateup"
+    android:text="@string/btsaveupdateuplabel"
+      android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+    ></Button>
+ 
+ 
+        </LinearLayout>
+  
+ 
+</ScrollView>
